@@ -26,7 +26,7 @@
             };
 
             const transactions_data = encodeURIComponent(JSON.stringify([transaction]));
-            const callback_url = encodeURIComponent('callback.html');;
+            const callback_url = encodeURIComponent('https://testnet.wallet.mintbase.xyz');
 
             const signTransactionUrl = `https://testnet.wallet.mintbase.xyz/sign-transaction?transactions_data=${transactions_data}&callback_url=${callback_url}`;
 
